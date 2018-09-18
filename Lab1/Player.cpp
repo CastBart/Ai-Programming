@@ -23,5 +23,4 @@ void Player::draw(sf::RenderWindow & window)
 
 void Player::move()
 {
-	if(sf::Keyboard::key)
 }
