@@ -1,2 +1,9 @@
-﻿  Player.cpp
-sfml-graphics.lib(sfml-graphics-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
+﻿  Game.cpp
+c:\users\bartosz\desktop\github\ai programming\ai-programming\lab1\game.cpp(4): warning C4244: 'initializing': conversion from 'double' to 'sf::Int32', possible loss of data
+c:\users\bartosz\desktop\github\ai programming\ai-programming\lab1\game.cpp(34): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\bartosz\desktop\github\ai programming\ai-programming\lab1\game.cpp(68): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\bartosz\desktop\github\ai programming\ai-programming\lab1\game.cpp(70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\bartosz\desktop\github\ai programming\ai-programming\lab1\game.cpp(71): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  Lab1.vcxproj -> C:\Users\Bartosz\Desktop\Github\AI Programming\Ai-Programming\Lab1\Debug\Lab1.exe

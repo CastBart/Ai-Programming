@@ -2,9 +2,10 @@
 
 
 
-Player::Player()
-	:m_object(300,500,sf::Color::Yellow)
+Player::Player(sf::Vector2f velocity)
+	:m_object(300, 500, sf::Color::Yellow, velocity)
 {
+	
 }
 
 
@@ -19,8 +20,14 @@ void Player::update()
 
 void Player::draw(sf::RenderWindow & window)
 {
+	m_object.draw(window);
+
 }
 
 void Player::move()
 {
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+	{
+		
+	}
 }

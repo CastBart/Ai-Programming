@@ -1,1 +1,5 @@
-﻿  Lab1.vcxproj -> D:\4th Year\Ai-Programming\Lab1\x64\Debug\Lab1.exe
+﻿  main.cpp
+  Object.cpp
+  Player.cpp
+  Generating Code...
+sfml-graphics.lib(sfml-graphics-2.dll) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

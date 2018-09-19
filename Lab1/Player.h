@@ -3,7 +3,7 @@
 class Player
 {
 public:
-	Player();
+	Player(sf::Vector2f velocity);
 	~Player();
 	void update();
 	void draw(sf::RenderWindow& window);
